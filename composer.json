@@ -3,7 +3,13 @@
     "description": "Firecrawl AI tool bridge for Symfony applications.",
     "license": "MIT",
     "type": "symfony-ai-tool",
-    "keywords": ["ai", "bridge", "firecrawl", "agent", "tool"],
+    "keywords": [
+        "ai",
+        "bridge",
+        "firecrawl",
+        "agent",
+        "tool"
+    ],
     "authors": [
         {
             "name": "Guillaume Loulier",
@@ -22,6 +28,7 @@
     "require-dev": {
         "phpunit/phpunit": "^11.5.13"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Symfony\\AI\\Agent\\Bridge\\Firecrawl\\": ""
@@ -43,6 +50,5 @@
             "name": "symfony/ai",
             "url": "https://github.com/symfony/ai"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
